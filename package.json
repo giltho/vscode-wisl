@@ -2,7 +2,7 @@
     "name": "vscode-wisl",
     "displayName": "vscode-wisl",
     "description": "Language support for WISL (While In Separation Logic)",
-    "version": "0.0.1",
+    "version": "0.1.0",
     "publisher": "giltho",
     "engines": {
         "vscode": "^1.24.0"
@@ -11,16 +11,25 @@
         "Programming Languages"
     ],
     "contributes": {
-        "languages": [{
-            "id": "wisl",
-            "aliases": ["WISL", "wisl"],
-            "extensions": [".wisl"],
-            "configuration": "./language-configuration.json"
-        }],
-        "grammars": [{
-            "language": "wisl",
-            "scopeName": "source.wisl",
-            "path": "./syntaxes/wisl.tmLanguage.json"
-        }]
+        "languages": [
+            {
+                "id": "wisl",
+                "aliases": [
+                    "WISL",
+                    "wisl"
+                ],
+                "extensions": [
+                    ".wisl"
+                ],
+                "configuration": "./language-configuration.json"
+            }
+        ],
+        "grammars": [
+            {
+                "language": "wisl",
+                "scopeName": "source.wisl",
+                "path": "./syntaxes/wisl.tmLanguage.json"
+            }
+        ]
     }
 }
