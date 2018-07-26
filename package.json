@@ -2,6 +2,7 @@
     "name": "vscode-wisl",
     "displayName": "WISL",
     "description": "Language support for WISL (While In Separation Logic)",
+    "repository": "https://github.com/giltho/vscode-wisl.git",
     "version": "0.3.0",
     "publisher": "giltho",
     "engines": {
